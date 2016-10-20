@@ -475,6 +475,7 @@
 		};
 		23A0DFBA1DB9336200E9F9C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A0DFCF1DB934A400E9F9C9 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -495,6 +496,7 @@
 		};
 		23A0DFBB1DB9336200E9F9C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A0DFCF1DB934A400E9F9C9 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -514,6 +516,7 @@
 		};
 		23A0DFBD1DB9336200E9F9C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A0DFCE1DB934A400E9F9C9 /* Framework-Testing.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests.plist;
@@ -526,6 +529,7 @@
 		};
 		23A0DFBE1DB9336200E9F9C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A0DFCE1DB934A400E9F9C9 /* Framework-Testing.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests.plist;
