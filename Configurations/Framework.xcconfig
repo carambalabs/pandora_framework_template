@@ -1,0 +1,3 @@
+#include "Framework-Base.xcconfig"
+
+SUPPORTED_PLATFORMS        = iphoneos iphonesimulator appletvsimulator appletvos macosx watchsimulator watchos

@@ -1,0 +1,5 @@
+#include "Framework-Base.xcconfig"
+
+SUPPORTED_PLATFORMS        = iphonesimulator
+APPLICATION_EXTENSION_API_ONLY = NO
+

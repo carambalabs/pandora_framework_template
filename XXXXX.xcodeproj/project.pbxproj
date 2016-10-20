@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		23A0DFAF1DB9336200E9F9C9 /* XXXXX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A0DFA51DB9336200E9F9C9 /* XXXXX.framework */; };
-		23A0DFB41DB9336200E9F9C9 /* XXXXXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A0DFB31DB9336200E9F9C9 /* XXXXXTests.swift */; };
-		23A0DFB61DB9336200E9F9C9 /* XXXXX.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A0DFA81DB9336200E9F9C9 /* XXXXX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23A0DFC91DB9343500E9F9C9 /* XXXXXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A0DFC81DB9343500E9F9C9 /* XXXXXTests.swift */; };
+		23A0DFCB1DB9344C00E9F9C9 /* XXXXX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A0DFCA1DB9344C00E9F9C9 /* XXXXX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +24,14 @@
 
 /* Begin PBXFileReference section */
 		23A0DFA51DB9336200E9F9C9 /* XXXXX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XXXXX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23A0DFA81DB9336200E9F9C9 /* XXXXX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXXX.h; sourceTree = "<group>"; };
-		23A0DFA91DB9336200E9F9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23A0DFAE1DB9336200E9F9C9 /* XXXXXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXXXXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23A0DFB31DB9336200E9F9C9 /* XXXXXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXXXTests.swift; sourceTree = "<group>"; };
-		23A0DFB51DB9336200E9F9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A0DFBF1DB9342A00E9F9C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A0DFC31DB9342A00E9F9C9 /* Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tests.plist; sourceTree = "<group>"; };
+		23A0DFC81DB9343500E9F9C9 /* XXXXXTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXXXXTests.swift; sourceTree = "<group>"; };
+		23A0DFCA1DB9344C00E9F9C9 /* XXXXX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXXXX.swift; sourceTree = "<group>"; };
+		23A0DFCD1DB934A400E9F9C9 /* Framework-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-Base.xcconfig"; sourceTree = "<group>"; };
+		23A0DFCE1DB934A400E9F9C9 /* Framework-Testing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-Testing.xcconfig"; sourceTree = "<group>"; };
+		23A0DFCF1DB934A400E9F9C9 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +56,11 @@
 		23A0DF9B1DB9336100E9F9C9 = {
 			isa = PBXGroup;
 			children = (
-				23A0DFA71DB9336200E9F9C9 /* XXXXX */,
-				23A0DFB21DB9336200E9F9C9 /* XXXXXTests */,
+				23A0DFBF1DB9342A00E9F9C9 /* Info.plist */,
+				23A0DFC31DB9342A00E9F9C9 /* Tests.plist */,
+				23A0DFCC1DB934A400E9F9C9 /* Configurations */,
+				23A0DFC71DB9343500E9F9C9 /* Tests */,
+				23A0DFC01DB9342A00E9F9C9 /* Sources */,
 				23A0DFA61DB9336200E9F9C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,22 +74,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23A0DFA71DB9336200E9F9C9 /* XXXXX */ = {
+		23A0DFC01DB9342A00E9F9C9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				23A0DFA81DB9336200E9F9C9 /* XXXXX.h */,
-				23A0DFA91DB9336200E9F9C9 /* Info.plist */,
+				23A0DFCA1DB9344C00E9F9C9 /* XXXXX.swift */,
 			);
-			path = XXXXX;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		23A0DFB21DB9336200E9F9C9 /* XXXXXTests */ = {
+		23A0DFC71DB9343500E9F9C9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				23A0DFB31DB9336200E9F9C9 /* XXXXXTests.swift */,
-				23A0DFB51DB9336200E9F9C9 /* Info.plist */,
+				23A0DFC81DB9343500E9F9C9 /* XXXXXTests.swift */,
 			);
-			path = XXXXXTests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		23A0DFCC1DB934A400E9F9C9 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				23A0DFCD1DB934A400E9F9C9 /* Framework-Base.xcconfig */,
+				23A0DFCE1DB934A400E9F9C9 /* Framework-Testing.xcconfig */,
+				23A0DFCF1DB934A400E9F9C9 /* Framework.xcconfig */,
+			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +107,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A0DFB61DB9336200E9F9C9 /* XXXXX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +161,7 @@
 				TargetAttributes = {
 					23A0DFA41DB9336100E9F9C9 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					23A0DFAD1DB9336200E9F9C9 = {
@@ -196,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A0DFCB1DB9344C00E9F9C9 /* XXXXX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A0DFB41DB9336200E9F9C9 /* XXXXXTests.swift in Sources */,
+				23A0DFC91DB9343500E9F9C9 /* XXXXXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,17 +335,19 @@
 		23A0DFBA1DB9336200E9F9C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = XXXXX/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YYYYY.XXXXX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,12 +355,13 @@
 		23A0DFBB1DB9336200E9F9C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = XXXXX/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YYYYY.XXXXX;
@@ -356,7 +374,8 @@
 		23A0DFBD1DB9336200E9F9C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = XXXXXTests/Info.plist;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Tests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YYYYY.XXXXXTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,7 +386,8 @@
 		23A0DFBE1DB9336200E9F9C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = XXXXXTests/Info.plist;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Tests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YYYYY.XXXXXTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,6 +414,7 @@
 				23A0DFBB1DB9336200E9F9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23A0DFBC1DB9336200E9F9C9 /* Build configuration list for PBXNativeTarget "XXXXXTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +423,7 @@
 				23A0DFBE1DB9336200E9F9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

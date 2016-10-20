@@ -1,11 +1,3 @@
-//
-//  XXXXXTests.swift
-//  XXXXXTests
-//
-//  Created by Pedro Pinera Buendia on 20/10/16.
-//  Copyright © 2016 YYYYY. All rights reserved.
-//
-
 import XCTest
 @testable import XXXXX
 
