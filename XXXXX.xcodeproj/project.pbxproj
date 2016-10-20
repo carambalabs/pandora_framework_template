@@ -42,6 +42,7 @@
 		23A0DFEB1DB9359C00E9F9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A0DFEE1DB9359C00E9F9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A0DFF01DB9359C00E9F9C9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23A0DFF61DB9377500E9F9C9 /* XXXXX.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = XXXXX.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 			children = (
 				23A0DFBF1DB9342A00E9F9C9 /* Info.plist */,
 				23A0DFC31DB9342A00E9F9C9 /* Tests.plist */,
+				23A0DFF51DB9376E00E9F9C9 /* Playgrounds */,
 				23A0DFCC1DB934A400E9F9C9 /* Configurations */,
 				23A0DFC71DB9343500E9F9C9 /* Tests */,
 				23A0DFC01DB9342A00E9F9C9 /* Sources */,
@@ -177,6 +179,14 @@
 				23A0DFF01DB9359C00E9F9C9 /* ViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		23A0DFF51DB9376E00E9F9C9 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				23A0DFF61DB9377500E9F9C9 /* XXXXX.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
