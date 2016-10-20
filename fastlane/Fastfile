@@ -1,0 +1,9 @@
+desc "Builds XXXXX for all the platforms"
+lane :build_XXXXX do
+
+end
+
+desc "Runs all XXXXX tests"
+lane :test_XXXXX do
+  scan(workspace: "XXXXX.xcworkspace", scheme: "XXXXX")
+end
